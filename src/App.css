@@ -1,0 +1,19 @@
+.container {
+  /* text-align: center; */
+}
+
+.container__header {
+  height: 32px;
+  padding: 4px;
+  overflow: hidden;
+  z-index: 10;
+  background: #026aa7;
+  opacity: 0.7;
+}
+
+.container__content {
+  overflow-y: auto;
+  outline: none;
+  position: relative;
+  margin-top: 10px;
+}

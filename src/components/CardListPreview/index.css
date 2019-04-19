@@ -1,0 +1,50 @@
+.list {
+  background-color: #dfe3e6;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  position: relative;
+  height: 200px;
+  white-space: normal;
+}
+
+.list-cards {
+  flex: 1 1 auto;
+  margin-bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0 4px;
+  padding: 0 4px;
+  z-index: 1;
+  min-height: 0;
+}
+
+.list-header {
+  flex: 0 0 auto;
+  padding: 10px 8px 8px;
+  position: relative;
+  min-height: 20px;
+}
+
+.list-footer:hover {
+  background-color: rgba(9,45,66,.13);
+  color: #17394d;
+  text-decoration: underline;
+}
+
+.list-footer-add-button {
+  border-radius: 0 0 3px 3px;
+  cursor: pointer;
+  color: #6b808c;
+  display: block;
+  flex: 0 0 auto;
+  padding: 8px;
+  position: relative;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
